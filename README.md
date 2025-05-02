@@ -22,7 +22,8 @@ How to install the script
 
 ## Usage
 - Click Shift + Del on your keyboard to suspend GTA5_Enhanced.exe for 10 seconds
-- Click Shift + Del again to resume the process before the timer is up
+- Click Shift + Del again to resume the process before the countdown is up
+- The countdown will show in the middle of your screen if you aren't in fullscreen
 
 ## Purpose
 - Suspending the GTA5_Enahnced.exe process for 10 seconds does many thing that are helpful
