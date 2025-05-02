@@ -31,3 +31,6 @@ How to install the script
 - You and the other players will both keep identical sessions with the same active missions, vehicles, and all progress
 - This works because of the peer to peer servers that GTA 5 uses
 - This can be done at any time, including during missions like if you're being attacked during a sell mission.
+
+## Credit
+Credit to Microsoft for PSTools which allows this script to work.
