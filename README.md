@@ -31,5 +31,8 @@ How to install the script
 - This works because of the peer to peer servers that GTA 5 uses
 - This can be done at any time, including during missions like if you're being attacked during a sell mission.
 
-## Credit
+##Troubleshooting & Credit
+If the script doesn't work and gives no feedback, try running the file as administrator
+
 Credit to Microsoft for PSTools which allows this script to work for versions before 2.0.0
+
