@@ -34,4 +34,4 @@ How to install the script
 - This can be done at any time, including during missions like if you're being attacked during a sell mission.
 
 ## Credit
-Credit to Microsoft for PSTools which allows this script to work.
+Credit to Microsoft for PSTools which allows this script to work for versions before 2.0.0
