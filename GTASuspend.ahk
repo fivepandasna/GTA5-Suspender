@@ -10,7 +10,7 @@ Gui, Countdown:Add, Text, cRed vCountdownText w200 h100 Center, %CountdownSecond
 WinSet, TransColor, 000000 200
 Gui, Countdown:+Owner
 
-F1::
++Delete::
   if (IsSuspended) {
     SetTimer, UpdateCountdown, Off
     SetTimer, ResumeProcess, Off
