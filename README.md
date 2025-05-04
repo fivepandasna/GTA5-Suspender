@@ -1,5 +1,5 @@
 <h1 align="center">
-GTA5-Suspender - An AutoHotKey script to suspend the process GTA5_Enhanced.exe for 10 seconds
+GTA5-Suspender - An AutoHotKey script to suspend the process GTA5_Enhanced.exe for 8 seconds
 </h1>
 
 
@@ -14,19 +14,17 @@ GTA5-Suspender - An AutoHotKey script to suspend the process GTA5_Enhanced.exe f
 ## Installation 
 How to install the script 
 
-1. Download GTA5_Suspender from the latest [release](https://github.com/fivepandasna/GTA5-Suspender/releases)
+1. Download GTASuspend.ahk from the latest [release](https://github.com/fivepandasna/GTA5-Suspender/releases)
 
-2. Unzip the file by right clicking then clicking "Extract All..." in the context menu
-  
-3. Create a shortcut for GTASuspend.ahk and an accessible location such as your desktop
+2. You're done! Open the file and click shift + delete to run the script
 
 ## Usage
-- Click Shift + Del on your keyboard to suspend GTA5_Enhanced.exe for 10 seconds
+- Click Shift + Del on your keyboard to suspend GTA5_Enhanced.exe for 8 seconds
 - Click Shift + Del again to resume the process before the countdown is up
 - The countdown will show in the middle of your screen if you aren't in fullscreen
 
 ## Purpose
-- Suspending the GTA5_Enahnced.exe process for 10 seconds does many thing that are helpful
+- Suspending the GTA5_Enahnced.exe process for 8 seconds does many thing that are helpful
 - If you're stuck on a loading screen, it will often get you out of it
 - When suspend the process in an online session with other players, it will dissonnect them from your session
 - You and the other players will both keep identical sessions with the same active missions, vehicles, and all progress
