@@ -23,17 +23,17 @@ Gui, Countdown:+Owner
     IsSuspended := true
     TimerActive := true
     
-    ; Reset and start countdown
     CountdownSeconds := 8
     GuiControl, Countdown:, CountdownText, %CountdownSeconds%
     
-    ; Center the GUI on screen
-    SysGet, MonitorWorkArea, MonitorWorkArea
-    GuiWidth := 200
-    GuiHeight := 100
-    XPos := (MonitorWorkAreaRight - GuiWidth) / 2
-    YPos := (MonitorWorkAreaBottom - GuiHeight) / 2
-    Gui, Countdown:Show, x%XPos% y%YPos% w%GuiWidth% h%GuiHeight% NoActivate
+    SysGet, MonitorCount, MonitorCount
+    SysGet, MonitorPrimary, MonitorPrimary
+    SysGet, MonitorWorkArea, MonitorWorkArea, %MonitorPrimary%
+    Gui, Countdown:+LastFound
+    WinGetPos,,, GuiWidth, GuiHeight
+    X := (MonitorWorkAreaRight - MonitorWorkAreaLeft - GuiWidth) // 2
+    Y := (MonitorWorkAreaBottom - MonitorWorkAreaTop - GuiHeight) // 2
+    Gui, Countdown:Show, NoActivate x%X% y%Y%
     
     SetTimer, UpdateCountdown, 1000
     SetTimer, ResumeProcess, 8000
